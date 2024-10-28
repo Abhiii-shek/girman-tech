@@ -8,7 +8,10 @@ const Navbar = () => {
         <div className="flex p-2 pl-32 items-center gap-96 bg-white top-0 shadow-md">
             {/* Logo Section */}
             <div className='flex justify-center items-center gap-[12.65px]'>
+                <Link to="/">
                 <img className="h-12" src={Logo} alt="logo" />
+                
+                </Link>
             </div>
 
             {/* Links Section */}
@@ -27,7 +30,7 @@ const Navbar = () => {
   
   {/* External link to LinkedIn */}
   <li className="font-normal text-[18.49px] leading-[27px] text-[#111111]">
-    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://www.linkedin.com/company/girmantech/posts/?feedView=all" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </li>
   
   {/* Email link */}
