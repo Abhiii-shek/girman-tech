@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adjust the path based on where you save the image */
+body {
+  background-image: url('/react/src/assets/images/bg-image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif; 
+}
